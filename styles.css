@@ -1,0 +1,40 @@
+@import './styles/reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+@import './styles/header.css';
+@import 'styles/dream.css';
+
+.body {
+	color: #e2e2e2;
+	background-color: #0e0e0e;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+[class*='_container'] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+[class*='_button'] {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	border-radius: 24px;
+	padding: 12px 50px;
+	border: 1px solid #e2e2e2;
+}
