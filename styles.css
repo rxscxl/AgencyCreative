@@ -5,6 +5,7 @@
 
 @import './styles/header.css';
 @import 'styles/dream.css';
+@import 'styles/footer.css';
 
 .body {
 	color: #e2e2e2;
