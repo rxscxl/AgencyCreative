@@ -52,3 +52,110 @@
 	position: relative;
 	background: url('../assets/dream.jfif') no-repeat center/cover;
 }
+
+.image__item-left {
+	position: absolute;
+	top: 5%;
+	left: -15%;
+	width: 175px;
+	height: 95px;
+	flex-direction: column;
+	background-color: #0e0e0e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 31px;
+	border-radius: 16px;
+	gap: 7px;
+}
+
+.left__item-title {
+	gap: 3px;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-wrap: nowrap;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: 1%;
+}
+
+.image__item-left p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1%;
+	text-wrap: nowrap;
+}
+
+.image__item-right {
+	position: absolute;
+	bottom: 0%;
+	right: -15%;
+	width: 166px;
+	height: 166px;
+	flex-direction: column;
+	background-color: #0e0e0e;
+	display: flex;
+	padding: 25px 21px;
+	border-radius: 16px;
+	gap: 12px;
+	letter-spacing: 1%;
+}
+
+.right__item-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.right__item-title p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.right__item-title p strong {
+	font-size: 10px;
+}
+
+.right__item-title p span {
+	font-size: 6px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.image__item-right p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 10px;
+	text-align: left;
+}
+
+.right__item-img {
+	height: 32px;
+	width: 32px;
+	background: url('../assets/billAdams.jfif') no-repeat center/cover;
+	border-radius: 50%;
+}
+.image__eclips-top {
+	position: absolute;
+	top: -4%;
+	left: 20%;
+	z-index: -1;
+}
+
+.image__eclips-bottom {
+	position: absolute;
+	bottom: -4%;
+	left: 20%;
+	z-index: -1;
+}
+
+.image__eclips-bottom-rotated {
+	position: absolute;
+	bottom: -2%;
+	left: 24%;
+	z-index: -1;
+}
