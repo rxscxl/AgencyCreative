@@ -28,7 +28,21 @@
 	width: 50%;
 	height: 402px;
 	border-radius: 24px;
+	position: relative;
 	background: url('../assets/about-us.jfif') no-repeat center/cover;
+}
+
+.about-us__image-eclips-orange {
+	position: absolute;
+	top: -4%;
+	left: -5.5%;
+	z-index: -1;
+}
+.about-us__image-eclips-purple {
+	position: absolute;
+	bottom: -3%;
+	right: -6%;
+	z-index: -1;
 }
 
 .about-us__text {
