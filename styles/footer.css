@@ -23,6 +23,11 @@
 	background-color: #e2e2e2;
 	max-width: fit-content;
 	gap: 10px;
+	transition: 0.2s;
+}
+
+.footer__logo:hover {
+	background-color: #e2e2e2e0;
 }
 
 .footer__logo h3 {
