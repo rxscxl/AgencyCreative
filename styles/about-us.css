@@ -1,3 +1,7 @@
+.about-us {
+	margin-bottom: 150px;
+}
+
 .about-us__wrapper {
 	display: flex;
 	flex-direction: column;
